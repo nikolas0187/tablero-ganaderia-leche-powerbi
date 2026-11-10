@@ -11,6 +11,13 @@ producción, costos, hato y reproducción desde una sola vista.
 ## Tecnologías
 Power BI · Power Query · DAX · Python · Excel
 
+## Pipeline del proyecto
+1. Generación de datos simulados con Python (`generar_datos.py`)
+2. Auditoría de calidad con Python (`auditor.py`) — detecta errores por celda
+3. Transformación y limpieza en Power Query
+4. Modelado en estrella en Power BI (dim_fecha, vacas → tablas de hechos)
+5. Medidas DAX y visualización gerencial
+
 ## Datos
 Datos simulados con parámetros zootécnicos reales. 
 Generados con Python para representar una ganadería de leche colombiana.
