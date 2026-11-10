@@ -16,4 +16,4 @@ Datos simulados con parámetros zootécnicos reales.
 Generados con Python para representar una ganadería de leche colombiana.
 
 ## Capturas
-![Resumen gerencial](imagenes/resumen_gerencial.png)
+![Resumen gerencial](imagenes/Resumen Gerencial.png)
